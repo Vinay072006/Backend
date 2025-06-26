@@ -1,6 +1,6 @@
-﻿import dotenv from "dotenv";
+import dotenv from "dotenv";
 import connectDB from "./db/index.js"; // assumes you created connectDB()
-
+import {app} from './app.js'
 // ✅ Load environment variables
 dotenv.config({
   path: "./.env", // FIX: should be .env, not ./env
